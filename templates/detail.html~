@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h1>{{ object['DocName'] }}</h1>
+        <p>{{ object['Kategorie2'] }}</p>
+        <h2><a href=" http://m.moers.de/{{ object['URL'] }}/">{{ 'http://m.moers.de/{{ object['URL'] }}/' }}</a></h2>
+    </body>
+</html>
